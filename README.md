@@ -1,5 +1,6 @@
 
 # IP Camera Weak Credential Scanner
+![image](https://github.com/user-attachments/assets/60a3e709-c866-415d-b9f0-aa85e11782df)
 
 This project is a Python-based tool to test IP cameras for weak credentials. It checks devices for common default username and password combinations and validates the login response.
 

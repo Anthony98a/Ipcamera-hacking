@@ -14,7 +14,9 @@ As a growing cybersecurity enthusiast and student, I’m well aware that there i
 
 [![img](https://github.com/jakejarvis/awesome-shodan-queries/raw/main/screenshots/shodan.png)](https://github.com/jakejarvis/awesome-shodan-queries/blob/main/screenshots/shodan.png)
 
-![image-20241214123233241](/Users/anthony/Library/Application Support/typora-user-images/image-20241214123233241.png)
+<img width="1421" alt="image" src="https://github.com/user-attachments/assets/de0f7db1-6684-47b1-98ae-958bf45d9056" />
+
+
 
 **[Most search filters require a Shodan account.](https://account.shodan.io/register)** *Shodan* also provides a free Membership upgrade for users that sign up with an academic *email* address (ex. ending in .edu , .ac.uk etc.).
 
@@ -100,7 +102,8 @@ By combining filters like `port:554` with specific manufacturers (e.g., `hikvisi
 
 
 
-![image-20241214130032501](/Users/anthony/Library/Application Support/typora-user-images/image-20241214130032501.png)
+![korea-camera](https://github.com/user-attachments/assets/84c2353e-5a69-4c69-81c4-fd82bc0ceced)
+This result showcases an exposed webcam identified through Shodan using relevant keywords such as webcam or camera. The Shodan engine returned detailed metadata about the device, including its geographic location in Cheongju-si, Republic of Korea, and the service running on it (MJPG-Streamer/0.2). The HTTP response clearly indicates that the device lacks proper authentication and is publicly accessible. The captured feed provides a live image from the camera, underscoring the significant privacy and security risks posed by such unsecured IoT devices. This result highlights how essential it is to implement basic security measures, such as password protection, for internet-connected cameras.
 
 ------
 
